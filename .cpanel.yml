@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/demo/portfolio
+    - export DEPLOYPATH=/home/user/demo.alicomputer.net/portfolio
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
