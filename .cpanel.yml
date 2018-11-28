@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/demo/healthcare
+    - export DEPLOYPATH=/home/user/demo/portfolio
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
